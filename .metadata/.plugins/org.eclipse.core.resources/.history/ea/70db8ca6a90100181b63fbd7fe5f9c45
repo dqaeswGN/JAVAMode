@@ -1,0 +1,5 @@
+package com.ws.server;
+
+public class HelloWorldTest {
+
+}

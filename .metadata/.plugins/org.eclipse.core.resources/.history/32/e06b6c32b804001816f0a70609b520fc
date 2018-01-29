@@ -1,0 +1,9 @@
+package com.lean.ssm.chapter2.reflect;
+
+public class ReflectServiceImpl2 {
+	
+	private String name;
+	
+	
+
+}

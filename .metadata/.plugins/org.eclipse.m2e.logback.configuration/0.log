@@ -1,0 +1,98 @@
+2018-01-24 16:42:54,878 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/maven-metadata.xml
+2018-01-24 16:42:56,144 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/maven-metadata.xml
+2018-01-24 16:42:56,775 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.jar
+2018-01-24 16:42:57,856 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.jar
+2018-01-24 16:45:01,157 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.pom
+2018-01-24 16:45:02,396 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.pom
+2018-01-24 16:45:02,429 [pool-2-thread-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file:///E:/maven/repository/org/apache/cocoon/cocoon-22-archetype-webapp/1.0.0/cocoon-22-archetype-webapp-1.0.0.jar
+2018-01-24 16:45:02,523 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' E:\workspace\webApp\pom.xml
+2018-01-24 16:45:03,963 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ch.com:webApp:0.0.1-SNAPSHOT @ E:\workspace\webApp\pom.xml.
+2018-01-24 16:45:05,224 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /webApp/src/main/java
+2018-01-24 16:45:05,226 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ch.com:webApp:0.0.1-SNAPSHOT @ E:\workspace\webApp\pom.xml.
+2018-01-24 16:45:05,233 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /webApp/src/main/resources
+2018-01-24 16:45:05,234 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /webApp/src/test/java
+2018-01-24 16:45:06,329 [Worker-12] WARN  o.e.m.w.i.utilities.DebugUtilities - ==============Processing webApp dependencies ===============
+2018-01-24 16:45:07,526 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2018-01-24 16:45:07,996 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ch.com:webApp:0.0.1-SNAPSHOT @ E:\workspace\webApp\pom.xml.
+2018-01-24 16:45:08,002 [Worker-8] WARN  o.e.m.w.i.utilities.DebugUtilities - ==============Processing webApp dependencies ===============
+2018-01-24 16:45:08,769 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.7/maven-jetty-plugin-6.1.7.pom
+2018-01-24 16:45:09,881 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.7/maven-jetty-plugin-6.1.7.pom
+2018-01-24 16:45:10,252 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.7/project-6.1.7.pom
+2018-01-24 16:45:11,010 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mortbay/jetty/project/6.1.7/project-6.1.7.pom
+2018-01-24 16:45:11,382 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.7/maven-jetty-plugin-6.1.7.jar
+2018-01-24 16:45:13,403 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/mortbay/jetty/maven-jetty-plugin/6.1.7/maven-jetty-plugin-6.1.7.jar
+2018-01-24 16:45:13,655 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-24 16:45:13,660 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-24 16:45:13,662 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-24 16:45:13,667 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\webApp\src\test\resources
+2018-01-24 16:45:14,217 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: ch.com:webApp:0.0.1-SNAPSHOT @ E:\workspace\webApp\pom.xml.
+2018-01-24 16:45:14,223 [Worker-9] WARN  o.e.m.w.i.utilities.DebugUtilities - ==============Processing webApp dependencies ===============
+2018-01-24 16:45:14,272 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-24 16:45:14,284 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-24 16:45:14,286 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-24 16:45:14,290 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\webApp\src\test\resources
+2018-01-24 16:49:42,459 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-24 16:49:42,464 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-24 16:49:42,465 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-24 16:49:42,470 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\workspace\webApp\src\test\resources
+2018-01-25 14:20:01,130 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.lin:ssm_server:0.0.1-SNAPSHOT @ E:\workspace\ssm_server\pom.xml.
+2018-01-25 14:20:03,329 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ssm_server/src/main/java
+2018-01-25 14:20:03,337 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ssm_server/src/main/resources
+2018-01-25 14:20:03,338 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ssm_server/src/test/java
+2018-01-25 14:20:03,338 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ssm_server/src/test/resources
+2018-01-25 14:20:03,845 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.lin:ssm_server:0.0.1-SNAPSHOT @ E:\workspace\ssm_server\pom.xml.
+2018-01-25 14:20:06,144 [Worker-5] WARN  o.e.m.w.i.utilities.DebugUtilities - ==============Processing ssm_server dependencies ===============
+2018-01-25 14:20:07,531 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.lin:ssm_server:0.0.1-SNAPSHOT @ E:\workspace\ssm_server\pom.xml.
+2018-01-25 14:20:07,538 [Worker-5] WARN  o.e.m.w.i.utilities.DebugUtilities - ==============Processing ssm_server dependencies ===============
+2018-01-25 14:20:07,616 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-25 14:20:07,627 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-25 14:20:07,630 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-25 14:20:07,637 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-25 14:20:59,734 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-25 14:20:59,754 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-25 14:20:59,755 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-25 14:20:59,760 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-25 14:21:49,586 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-25 14:21:49,591 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-25 14:21:49,593 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-25 14:21:49,598 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-25 14:21:51,894 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.lin:ssm_server:0.0.1-SNAPSHOT @ E:\workspace\ssm_server\pom.xml.
+2018-01-25 14:21:51,900 [Worker-2] WARN  o.e.m.w.i.utilities.DebugUtilities - ==============Processing ssm_server dependencies ===============
+2018-01-25 14:21:51,950 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-25 14:21:51,957 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-25 14:21:51,958 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-25 14:21:51,963 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-25 14:24:56,568 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-25 14:24:56,573 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-25 14:24:56,574 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-25 14:24:56,579 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-25 16:10:49,691 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-25 16:10:49,696 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-25 16:10:49,697 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-25 16:10:49,702 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-26 08:47:47,035 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.lin:ssm_server:0.0.1-SNAPSHOT @ E:\workspace\ssm_server\pom.xml.
+2018-01-26 08:47:47,035 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.lin:ssm_server:0.0.1-SNAPSHOT @ E:\workspace\ssm_server\pom.xml.
+2018-01-26 08:47:47,089 [Worker-1] WARN  o.e.m.w.i.utilities.DebugUtilities - ==============Processing ssm_server dependencies ===============
+2018-01-26 08:47:49,182 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.lin:ssm_server:0.0.1-SNAPSHOT @ E:\workspace\ssm_server\pom.xml.
+2018-01-26 08:47:49,196 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-26 08:47:49,203 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-26 08:47:49,205 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-26 08:47:49,210 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-26 08:47:49,290 [Worker-4] WARN  o.e.m.w.i.utilities.DebugUtilities - ==============Processing ssm_server dependencies ===============
+2018-01-26 08:47:50,341 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-26 08:47:50,350 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-26 08:47:50,351 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-26 08:47:50,356 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-29 10:47:30,343 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.lin:ssm_server:0.0.1-SNAPSHOT @ E:\workspace\ssm_server\pom.xml.
+2018-01-29 10:47:30,343 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.lin:ssm_server:0.0.1-SNAPSHOT @ E:\workspace\ssm_server\pom.xml.
+2018-01-29 10:47:30,386 [Worker-1] WARN  o.e.m.w.i.utilities.DebugUtilities - ==============Processing ssm_server dependencies ===============
+2018-01-29 10:47:32,343 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-29 10:47:32,350 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-29 10:47:32,352 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-29 10:47:32,357 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-29 10:47:32,452 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.lin:ssm_server:0.0.1-SNAPSHOT @ E:\workspace\ssm_server\pom.xml.
+2018-01-29 10:47:32,471 [Worker-8] WARN  o.e.m.w.i.utilities.DebugUtilities - ==============Processing ssm_server dependencies ===============
+2018-01-29 10:47:33,599 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-29 10:47:33,616 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-01-29 10:47:33,618 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-01-29 10:47:33,625 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

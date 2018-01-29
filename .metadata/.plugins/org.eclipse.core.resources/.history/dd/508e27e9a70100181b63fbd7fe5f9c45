@@ -1,0 +1,13 @@
+package com.ws.test.impl;
+
+import com.ws.test.HelloWorldService;
+
+public class HelloWorldServiceImpl implements HelloWorldService {
+
+	@Override
+	public String test1(String name, String pwd) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

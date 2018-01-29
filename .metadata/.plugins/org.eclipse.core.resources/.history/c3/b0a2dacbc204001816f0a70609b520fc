@@ -1,0 +1,7 @@
+package com.lean.ssm.chapter2.proxy;
+
+import net.sf.cglib.proxy.MethodInterceptor;
+
+public class CglibProxyExample implements MethodInterceptor{
+
+}

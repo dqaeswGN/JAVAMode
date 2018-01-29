@@ -1,0 +1,14 @@
+package com.lean.ssm.chapter2.reflect;
+
+public class ReflectTest {
+	public Object getInstance(String classname){
+		Object object=null;
+		try{
+			object=Class.forName("ReflectServiceImpl").newInstance();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return object;
+	}
+
+}

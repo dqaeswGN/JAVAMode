@@ -1,0 +1,13 @@
+package com.lean.ssm.chapter2.proxy;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void Jdktest(){
+		
+	}
+}

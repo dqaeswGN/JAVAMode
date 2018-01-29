@@ -1,0 +1,18 @@
+package com.lean.ssm.chapter2.proxy;
+
+import org.omg.CORBA.SystemException;
+import org.omg.CORBA.portable.InputStream;
+import org.omg.CORBA.portable.InvokeHandler;
+import org.omg.CORBA.portable.OutputStream;
+import org.omg.CORBA.portable.ResponseHandler;
+
+public class JdkproxyExample implements InvokeHandler {
+
+	@Override
+	public OutputStream _invoke(String arg0, InputStream arg1,
+			ResponseHandler arg2) throws SystemException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

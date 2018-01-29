@@ -1,0 +1,13 @@
+package com.ws.test;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+
+@WebService
+public interface HelloWorldService {
+	
+	@WebMethod
+	public String test1();
+
+}
