@@ -16,9 +16,18 @@ public class JdkproxyExample implements InvocationHandler {
 	* @param target真实对象
 	* @return 代理对象
 	*/
+	/**
+	 * Object java.lang.reflect.Proxy.newProxyInstance(ClassLoader loader, 
+	 * 												   Class<?>[] interfaces, 
+	 * 												   InvocationHandler h) 
+	 * 												throws IllegalArgumentException
+	 * loader - 定义代理类的类加载器
+	 * interfaces - 代理类要实现的接口列表
+	 * h - 指派方法调用的调用处理程序 
+	 */
 	public Object bind(Object target) {
 		this.target=target;
-		return Proxy.newProxyInstance(target.getClass().getClassLoader(), 
+		return Proxy.newProxyInstance(target.getClass().getClassLoader(),
 				target.getClass().getInterfaces(), this);
 	}
 	
