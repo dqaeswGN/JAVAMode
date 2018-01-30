@@ -21,9 +21,9 @@ public class JdkproxyExample implements InvocationHandler {
 	 * 												   Class<?>[] interfaces, 
 	 * 												   InvocationHandler h) 
 	 * 												throws IllegalArgumentException
-	 * loader - 定义代理类的类加载器
+	 * loader     - 定义代理类的类加载器
 	 * interfaces - 代理类要实现的接口列表
-	 * h - 指派方法调用的调用处理程序 
+	 * h          - 指派方法调用的调用处理程序 
 	 */
 	public Object bind(Object target) {
 		this.target=target;
