@@ -14,9 +14,17 @@ public class InterceptorJdkProxy implements InvocationHandler {
 		this.target=target;
 		this.interceptorClass=interceptorClass;
 	}
+	
+	/**
+     * 绑定委托对象并返回一个【代理占位】
+     *
+     * @param target 真实对象
+     * @return 代理对象【占位】
+     */
 	public static Object bind(Object target, String interceptorClass){
 		return Proxy.newProxyInstance(target.getClass().getClassLoader(), 
-				target.getClass().getInterfaces(), new InterceptorJdkProxy(target,interceptorClass));
+									  target.getClass().getInterfaces(), 
+									  new InterceptorJdkProxy(target,interceptorClass));
 	}
 	
 	
