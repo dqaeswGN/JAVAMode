@@ -1,0 +1,29 @@
+package com.lean.ssm.chapter2.intercept;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
+
+public class InterceptorJdkProxy implements InvocationHandler {
+	
+	// 真实对象
+	private Object target = null;
+	private String interceptorClass = null;//拦截器全限定名
+	
+	public InterceptorJdkProxy(Object target, String interceptorClass) {
+		this.target=target;
+		this.interceptorClass=interceptorClass;
+	}
+	public Object bind(Object target, String interceptorClass){
+		return Proxy.newProxyInstance(target.getClass().getClassLoader(), 
+				target.getClass().getInterfaces(), new InterceptorJdkProxy(target,interceptorClass));
+	}
+	
+	@Override
+	public Object invoke(Object proxy, Method method, Object[] args)
+			throws Throwable {
+		
+		return null;
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.lean.ssm.chapter2;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Observable;
+
+
+
+public class ProductList extends Observable {
+
+	private List<String> productList = null;//产品列表
+	
+	private static ProductList instance;//类唯一实例
+	
+	private ProductList() {}//构建方法私有化
+	
+	/**
+     * 取得唯一实例
+     * @return 产品列表唯一实例
+     */
+	public static ProductList getInstance() {
+        if (instance == null) {
+            instance = new ProductList();
+            instance.productList = new ArrayList<String>();
+        }
+        return instance;
+    }
+	
+
+}

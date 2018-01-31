@@ -1,0 +1,39 @@
+package com.learn.ssm.chapter3.util;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+import org.apache.ibatis.datasource.pooled.PooledDataSource;
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+public class SqlSessionFactoryUtils {
+	static SqlSessionFactory sqlSessionFactory = null;
+	
+	
+	public static SqlSessionFactory getSqlSessionFactory() {
+		String resource= "mybatis-config.xml";
+		InputStream inputStream;
+		try {
+			inputStream = Resources.getResourceAsStream(resource);
+			sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
+		} catch (IOException e) {
+			e.printStackTrace();
+			return null;
+		}
+		return sqlSessionFactory;
+	}
+	
+	//代码生成SqlSessionFactory
+		public static SqlSessionFactory getSqlSessionFactory2() {
+			//数据库连接池信息
+			PooledDataSource dataSource = new PooledDataSource();
+			dataSource.setDriver("com.mysql.jdbc.Driver");
+			dataSource.setUsername("root");
+			dataSource.setPassword("root");
+			dataSource.setUrl("jdbc:mysql://localhost:3306/chapter3");
+			dataSource.setDefaultAutoCommit(false);
+		}
+	
+}

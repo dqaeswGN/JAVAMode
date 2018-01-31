@@ -1,0 +1,9 @@
+package com.learn.ssm.chapter3.util;
+
+import org.apache.ibatis.session.SqlSessionFactory;
+
+public class SqlSessionFactoryUtils {
+	SqlSessionFactory sqlSessionFactory = null;
+	String resource= "mybatis-config.xml";
+	
+}
