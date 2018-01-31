@@ -21,10 +21,17 @@ public class Chapter3Main {
 		try {
 			sqlSession = SqlSessionFactoryUtils.openSqlSession();
 			Rolemapper roleMapper = sqlSession.getMapper(Rolemapper.class);
-			Role role = roleMapper.getRole(2L);
+			
+			Role role = new Role();
+			//roleMapper.getRole(2L);
+			
+			role.setRoleName("込込込込込込");
+			role.setNote("asdf");
+			int a=roleMapper.insertRole(role);
 			log.info("----------------------------");
-			log.info(role.toString());
+			log.info(a);
 			log.info("----------------------------");
+			sqlSession.commit();
 		} finally {
 			if (sqlSession != null) {
 				sqlSession.close();
