@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/dev"/>
+	<classpathentry kind="lib" path="E:/Java/jdk1.8.0_151/jre/lib/rt.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Java"/>
+	<classpathentry kind="lib" path="E:/workspace/jar/mybatis-3.4.5/mybatis-3.4.5.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/jar/log4j-1.2.9.jar" sourcepath="E:/workspace/jar/log4j-1.2.9-sources.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/jar/commons-lang3-3.7-bin/commons-lang3-3.7.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/jar/commons-lang3-3.7-bin/commons-dbcp2-2.2.0.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/jar/commons-lang3-3.7-bin/commons-dbcp2-2.2.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/jar/commons-lang3-3.7-bin/commons-dbcp2-2.2.0-sources.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/jar/commons-lang3-3.7-bin/commons-dbcp2-2.2.0-tests.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/jar/commons-lang3-3.7-bin/commons-dbcp2-2.2.0-test-sources.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/jar/commons-lang3-3.7-bin/commons-lang3-3.7-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/jar/commons-lang3-3.7-bin/commons-lang3-3.7-sources.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/jar/commons-lang3-3.7-bin/commons-lang3-3.7-tests.jar"/>
+	<classpathentry kind="lib" path="E:/workspace/jar/commons-lang3-3.7-bin/commons-lang3-3.7-test-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
