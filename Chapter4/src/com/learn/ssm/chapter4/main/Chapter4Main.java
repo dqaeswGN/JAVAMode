@@ -13,7 +13,7 @@ public class Chapter4Main {
 
 	public static void main(String[] args) {
 		testRoleMapper();
-		testTypeHandler();
+//		testTypeHandler();
 	}
 
 	private static void testRoleMapper() {
