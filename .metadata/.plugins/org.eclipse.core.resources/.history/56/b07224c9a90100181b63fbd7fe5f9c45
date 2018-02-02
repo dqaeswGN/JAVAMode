@@ -1,9 +1,0 @@
-package com.ws.server;
-
-import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
-
-public class HelloWorldTest {
-	public static void main(String[] args){
-		JaxWsProxyFactoryBean  factory=new JaxWsProxyFactoryBean();
-	}
-}

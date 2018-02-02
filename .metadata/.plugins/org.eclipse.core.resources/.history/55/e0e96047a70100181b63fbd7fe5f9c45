@@ -1,5 +1,0 @@
-package com.ws.test;
-
-public interface HelloWorldService {
-
-}

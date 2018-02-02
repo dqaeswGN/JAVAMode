@@ -1,9 +1,0 @@
-package com.ws.server;
-
-import com.ws.test.impl.HelloWorldServiceImpl;
-
-public class HelloWorldServer {
-	public static void main(String[] args){
-		HelloWorldServer  server=new HelloWorldServiceImpl();
-	}
-}

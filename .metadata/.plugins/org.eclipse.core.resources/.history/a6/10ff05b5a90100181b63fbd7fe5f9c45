@@ -1,7 +1,0 @@
-package com.ws.server;
-
-public class HelloWorldTest {
-	public static void main(String[] args){
-		
-	}
-}

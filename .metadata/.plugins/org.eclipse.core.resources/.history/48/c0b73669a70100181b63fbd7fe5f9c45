@@ -1,9 +1,0 @@
-package com.ws.test;
-
-import javax.jws.WebService;
-
-
-@WebService
-public interface HelloWorldService {
-
-}
