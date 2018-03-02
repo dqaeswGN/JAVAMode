@@ -1,8 +1,0 @@
-package com.learn.ssm.chapter3.mapper;
-
-import com.learn.ssm.chapter3.pojo.Role;
-
-public interface Rolemapper {
-	public int insertRole(Role role);
-
-}

@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="sqlSession" key="selection"/>
+		<item value="findByMix" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="findByMix"/>
+			<item value="TransactionIsolationLevel"/>
 			<item value="sqlsession"/>
 		</list>
 		<list key="replacehistory">

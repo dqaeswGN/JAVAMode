@@ -1,8 +1,0 @@
-package com.lean.ssm.chapter2.reflect;
-
-public class ReflectServiceImpl {
-	public void sayHello(String name){
-		System.out.println("----------------------我的名字是:"+name+",hello boy");
-	}
-
-}

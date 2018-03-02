@@ -1,3 +1,0 @@
-log4j.rootLogger=DEBUG,stout
-log4j.logger.org.mybatis=DEBUG
-log4j.appender.stdout=org.apache.log4j.ConsoleAppender
