@@ -1,6 +1,5 @@
 package com.lean.ssm.chapter2.reflect;
 
-import java.lang.reflect.InvocationTargetException;
 
 public class ReflectServiceImpl2 {
 	
