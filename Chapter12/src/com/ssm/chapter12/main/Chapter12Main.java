@@ -17,11 +17,11 @@ public class Chapter12Main {
 
 	public static void main(String[] args) {
 //		testJdbcExample();
-//		tesSpring();
+//		tesSpring();		
 //		testSqlSessionTemplate();
 //		testRoleMapper() ;
-		double result = (119*10000*0.12 + 119*(10000-4000)*0.11)*0.94;
-		System.out.println(result*0.88);
+//		double result = (119*10000*0.12 + 119*(10000-4000)*0.11)*0.94;
+//		System.out.println(result*0.88);
 	}
 
 	public static void testJdbcExample() {
@@ -35,23 +35,24 @@ public class Chapter12Main {
 		JdbcTemplate jdbcTemplate = ctx.getBean(JdbcTemplate.class);
 		Long id = 1L;
 		String sql = "select id, role_name, note from t_role where id = " + id;
-		Role role = jdbcTemplate.queryForObject(sql, new RowMapper<Role>() {
-			@Override
-			public Role mapRow(ResultSet rs, int rownum) throws SQLException {
-				Role result = new Role();
-				result.setId(rs.getLong("id"));
-				result.setRoleName(rs.getString("role_name"));
-				result.setNote(rs.getString("note"));
-				return result;
-			}
-		});
-//		Role role = jdbcTemplate.queryForObject(sql, (ResultSet rs, int rownum) -> {
-//			Role result = new Role();
-//			result.setId(rs.getLong("id"));
-//			result.setRoleName(rs.getString("role_name"));
-//			result.setNote(rs.getString("note"));
-//			return result;
+//		Role role = jdbcTemplate.queryForObject(sql, new RowMapper<Role>() {
+//			@Override
+//			public Role mapRow(ResultSet rs, int rownum) throws SQLException {
+//				Role result = new Role();
+//				result.setId(rs.getLong("id"));
+//				result.setRoleName(rs.getString("role_name"));
+//				result.setNote(rs.getString("note"));
+//				return result;
+//			}
 //		});
+		//lambda表达式 java1.8以上
+		Role role = jdbcTemplate.queryForObject(sql, (ResultSet rs, int rownum) -> {
+			Role result = new Role();
+			result.setId(rs.getLong("id"));
+			result.setRoleName(rs.getString("role_name"));
+			result.setNote(rs.getString("note"));
+			return result;
+		});
 		System.out.println(role.getRoleName());
 	}
 	
