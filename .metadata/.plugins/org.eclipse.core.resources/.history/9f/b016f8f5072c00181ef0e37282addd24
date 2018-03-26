@@ -1,0 +1,45 @@
+package com.ssm.chapter18.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.data.redis.core.RedisTemplate;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+		RedisTemplate redisTemplate = applicationContext.getBean(RedisTemplate.class);
+//		redisTemplate.opsForValue().set("test1", "test1");
+//		redisTemplate.opsForValue().set("test2", "test2");
+//		
+//		String str=(String)redisTemplate.opsForValue().get("test1");
+//		System.out.println(str);
+//		redisTemplate.delete("test1");
+//		String str1=(String)redisTemplate.opsForValue().get("test1");
+//		System.out.println(str1);
+//		String str2=(String)redisTemplate.opsForValue().get("test2");
+//		System.out.println(str2);
+//		Long len1=redisTemplate.opsForValue().size("test1");
+//		Long len2=redisTemplate.opsForValue().size("test2");
+//		System.out.println("test1长度："+len1+"，test2长度："+len2);
+//		String oldValue2 = (String) redisTemplate.opsForValue().getAndSet("test2", "new_value2");
+//		System.out.println(oldValue2);
+//		String rangeValue2 = redisTemplate.opsForValue().get("test2", 0, 3);
+//		System.out.println(rangeValue2);
+//		// 追加字符串到末尾，返回新串长度
+//		int newLen = redisTemplate.opsForValue().append("test2", "_app");
+//		System.out.println(newLen);
+//		String appendValue2 = (String) redisTemplate.opsForValue().get("test2");
+//		System.out.println(appendValue2);
+		redisTemplate.opsForValue().set("val1", "10");
+		redisTemplate.opsForValue().set("val2", "20");
+		System.out.println((String)redisTemplate.opsForValue().get("val1"));
+		System.out.println((String)redisTemplate.opsForValue().get("val2"));
+		redisTemplate.opsForValue().increment("val1", 2);
+		redisTemplate.getConnectionFactory().getConnection().decrBy(redisTemplate.getKeySerializer().serialize("val1"), 1);
+		System.out.println((String)redisTemplate.opsForValue().get("val1"));
+		System.out.println((String)redisTemplate.opsForValue().get("val2"));
+	}
+
+}

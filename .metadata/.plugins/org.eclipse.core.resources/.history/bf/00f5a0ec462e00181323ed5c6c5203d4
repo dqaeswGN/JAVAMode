@@ -1,0 +1,5 @@
+package com.ssm.config;
+
+public class WebAppInitializer {
+
+}

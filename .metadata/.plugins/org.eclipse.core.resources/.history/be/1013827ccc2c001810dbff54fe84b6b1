@@ -1,0 +1,5 @@
+package com.ssm.chapter21.service;
+
+public class RoleService {
+
+}

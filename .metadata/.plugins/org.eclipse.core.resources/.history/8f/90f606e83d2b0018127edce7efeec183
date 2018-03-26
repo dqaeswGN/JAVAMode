@@ -1,0 +1,25 @@
+package test;
+
+import redis.clients.jedis.Jedis;
+
+public class test {
+	public static void main(String[] a){
+		Jedis jedis=new Jedis("127.0.0.1",63790);
+		int i=0;
+		try{
+			long start=System.currentTimeMillis();
+			while(true){
+				long end=System.currentTimeMillis();
+				if(end-start>1000){
+					break;
+				}
+				i++;
+				jedis.set("test"+i, ""+i);
+			}
+		}finally{
+			jedis.close();
+		}
+		System.out.print("Ò»¹²£º"+i+"´Î");
+	}
+
+}

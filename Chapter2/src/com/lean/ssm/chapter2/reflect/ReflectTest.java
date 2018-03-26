@@ -6,11 +6,11 @@ import java.lang.reflect.Method;
 public class ReflectTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		getInstance();
 
 	}
 	
-	public ReflectServiceImpl getInstance() {
+	public static ReflectServiceImpl getInstance() {
 		ReflectServiceImpl object = null;
 		try {
 			object = (ReflectServiceImpl) Class.forName("com.lean.ssm.chapter2.reflect.ReflectServiceImpl")

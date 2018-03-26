@@ -1,0 +1,19 @@
+package com.ssm.chapter18.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.data.redis.core.RedisTemplate;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
+		RedisTemplate redisTemplate = applicationContext.getBean(RedisTemplate.class);
+		
+		String key="hash";
+		
+		
+	}
+
+}

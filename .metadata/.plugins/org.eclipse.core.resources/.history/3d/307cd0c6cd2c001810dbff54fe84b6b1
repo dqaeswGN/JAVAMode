@@ -1,0 +1,5 @@
+package com.ssm.chapter21.config;
+
+public class RootConfig {
+
+}

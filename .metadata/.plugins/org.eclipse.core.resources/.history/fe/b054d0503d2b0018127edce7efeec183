@@ -1,0 +1,16 @@
+package test;
+
+import redis.clients.jedis.Jedis;
+
+public class test {
+	public static void main(String[] a){
+		Jedis jedis=new Jedis("127.0.0.1",63790);
+		int i=0;
+		try{
+			
+		}finally{
+			
+		}
+	}
+
+}

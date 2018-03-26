@@ -1,0 +1,16 @@
+package com.ssm.chapter21.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+import org.springframework.transaction.annotation.TransactionManagementConfigurer;
+
+@Configuration
+//定义Spring 扫描的包
+@ComponentScan("com.*")
+//使用事务驱动管理器
+@EnableTransactionManagement
+//实现接口TransactionManagementConfigurer，这样可以配置注解驱动事务
+public class RootConfig implements TransactionManagementConfigurer {
+
+}

@@ -1,0 +1,12 @@
+package com.ssm.chapter21.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+//定义Spring 扫描的包
+@ComponentScan("com.*")
+
+public class RootConfig {
+
+}

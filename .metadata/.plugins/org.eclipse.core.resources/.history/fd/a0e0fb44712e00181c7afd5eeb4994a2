@@ -1,0 +1,4 @@
+mysql.driverClassName=com.mysql.jdbc.Driver
+mysql.url=jdbc:mysql://192.168.158.131:3306/guoning
+mysql.username=guoning
+mysql.password=guoning
